@@ -1,0 +1,51 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <title>Coding Projects</title>
+            <link rel="stylesheet" href="../assets/css/cdp.css">
+            <meta charset="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        </head>
+    </html>
+
+    <header class="header">
+
+        <a href="home" class="logo">Tyler Moore</a>
+
+        
+            <nav>
+            
+                <nav class="navigation">
+                    <a href="allprojects">projects</a>
+                    <a href="aboutme.html">about me</a>
+                    <a href="contact">contact</a>
+                </nav>
+
+    </header>
+
+    <body>
+        <!--Page Title-->
+        <section class="cdptitle">
+            <h1>Coding Projects</h1>
+        </section>
+
+        <!--Buttons-->
+        <section class="tabbar">
+            <a href="allprojects"><button class="ux" type="menu">UX/UI Case Studies</button></a>
+            <a href="graphicdesign"><button class="design" type="menu" href="graphicdesign">Graphic Design</button></a>
+            <a href="codingprojects"><button class="coding" type="menu">Coding Projects</button></a>
+        </section>
+
+        <!--Projects-->
+        <section class="projects">
+            <h3>Coming Soon...</h3>
+        </section>
+    </body>
+    <!--footer-->
+    <footer class="footer">
+        <div class="flinks">
+            <p>uxbytdm@gmail.com</p>
+            <img src="" alt="linkedin">
+        </div>
+        </footer>
+    </html>
