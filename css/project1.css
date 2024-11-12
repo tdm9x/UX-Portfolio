@@ -1,0 +1,573 @@
+body {
+    background-color: white;
+    font-family: 'Amiamie';
+    color: black;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 40px;
+    margin-bottom: 40px;
+    justify-content: center;
+    position: static;
+    align-items: center;
+    box-sizing: border-box;
+    z-index: 100;
+    
+    
+}
+
+
+/* header */
+
+.header {
+    background-color: #fffffff3;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+    z-index: 100;
+    transition: top 0.2s ease-in-out;
+    
+}
+
+.logo {
+    color: #000000;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+.navigation a {
+    position: relative;
+    font-size: 16px;
+    text-decoration: none;
+    color: #000000;
+    margin-left: 20px;
+    font-weight: 400;
+    justify-content: space-between;
+}
+
+.navigation a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #ff0000;
+    transition: .3s;
+
+}
+
+.navigation a:hover::before {
+    width: 100%;
+}
+
+/*start*/
+.start {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+    padding: 50px 50px;
+
+    /* Inside auto layout */
+  
+    margin-bottom: 81px;
+    
+}
+
+.introvid {
+   
+    height: 450px;
+    overflow: visible;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.intro1 h1 {
+    font-size: 48px;
+    text-align: left;
+   
+}
+
+.intro1 p {
+    font-size: 24px;
+    font-style: italic;
+}
+
+.introstart {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    align-items: center;
+
+}
+.scroll svg, button {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    border: none;  
+    background-color: #fff; 
+    cursor: pointer;
+    
+    
+   
+    bottom: 0;
+    
+   
+}
+
+.project_details1 {
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px 50px;
+    gap: 24px;
+    
+    justify-content: center;
+    background: linear-gradient(261.68deg, #626FFF 6.36%, rgba(72, 85, 230, 0.76) 42.59%, rgba(133, 113, 255, 0.76) 83.36%);
+    color: #fff;
+    border-radius: 50px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin-bottom: 81px;
+}
+
+/*Challenge*/
+
+.challenge {
+    padding: 0px;
+    margin-bottom: 40px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 81px;
+}
+
+.solution {
+    color: #626FFF;
+}
+
+/*Project Goals*/
+
+.projectgoals {
+    padding: 0px;
+    margin-bottom: 40px;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+    
+}
+
+.pgt1 h4 {
+    color: #626FFF;
+}
+
+/*Goals*/
+
+.goals {
+    padding: 0px;
+    margin-bottom: 40px;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+    margin-bottom: 81px;
+}
+
+.goals h4 {
+    color: #626FFF;
+}
+/*Key Insights*/
+
+.keyinsights {
+    padding: 0px;
+    margin-bottom: 40px;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+}
+
+.keyinsights h4 {
+    color: #626FFF;
+}
+
+.keyinsights img {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    margin-bottom: 81px;
+}
+
+/*Insights*/
+.allinsights {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin-bottom: 81px;
+}
+
+.insight1 {
+    border: solid #626FFF;
+    border-radius: 30px;
+    padding: 50px 50px;
+}
+
+.intitle1 h4 {
+    color: #626FFF;
+}
+
+.solution {
+    color:#626FFF;
+}
+
+.insight2 {
+    border: solid #626FFF;
+    border-radius: 30px;
+    padding: 50px 50px;
+    
+}
+
+
+
+.intitle2 h4 {
+    color: #626FFF;
+}
+
+.solution2 {
+    color: #626FFF;
+    
+}
+
+.insight3 {
+    border: solid #626FFF;
+    border-radius: 30px;
+    padding: 50px 50px;
+}
+
+.intitle3 h4 {
+    color: #626FFF;
+}
+
+.solution3 {
+    color: #626FFF;
+   
+}
+
+/*Sitemap*/
+
+.sitemap {
+    padding: 0px;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+    margin-bottom: 81px;
+}
+
+.sitemap h4 {
+    color: #626FFF;
+}
+
+.sitemap img {
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    
+    margin-bottom: 40px;
+    
+    
+}
+
+/*Lofi*/
+
+.lofi {
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+    margin-bottom: 81px;
+}
+
+.lofi h4 {
+    color: #626FFF;
+}
+
+.lofi img {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 81px;
+    
+}
+
+/*UI Design*/
+
+.ui_design {
+    padding: 0px;
+    margin-bottom: 40px;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+    margin-bottom: 81px;
+}
+
+.ui_design h4 {
+    color: #626FFF;
+}
+
+.ui_design video {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+   
+}
+
+/*User Testing*/
+
+.usertest {
+    padding: 0px;
+    margin-bottom: 40px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 81px;
+}
+
+.usertest h4 {
+    color: #626FFF;
+}
+
+/*Interaction Design*/
+
+.inter {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.intertext {
+    margin-bottom: 40px;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    
+}
+.inter h4 {
+    color: #626FFF;
+}
+
+.vid2 {
+    height: 450px;
+    overflow: visible;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 40px;  
+}
+
+.video1 {
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+/*Onboarding*/
+
+.obtext {
+    margin-bottom: 40px; 
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+.onboarding {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.ob_vid {
+    height: 450px;
+    overflow: visible;
+    display: flex;
+    align-content: center;
+    justify-content: center; 
+    margin-bottom: 81px;
+}
+
+.onboarding h4 {
+    color: #626FFF;
+}
+
+/*Transitions*/
+
+.transitions {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+}
+
+.ts_text {
+    margin-bottom: 40px;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+.transitions h4 {
+    color: #626FFF;
+}
+
+.trst_vid {
+    height: 450px;
+    overflow: visible;
+    display: flex;
+    align-content: center;
+    justify-content: center; 
+    margin-bottom: 81px;
+}
+
+/*Dropdown Menu*/
+
+.dropdownmenu {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 81px;
+}
+
+.dm {
+    margin-bottom: 40px;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+.dropdownmenu h4 {
+    color: #626FFF;
+}
+
+.vid5 {
+    height: 450px;
+    overflow: visible;
+    display: flex;
+    align-content: center;
+    justify-content: center; 
+}
+
+/*Changes*/
+
+.change1 {
+    padding: 0px;
+    margin-bottom: 40px;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+    margin-bottom: 81px;
+}
+
+.ch1 h4 {
+    color: #626FFF;
+}
+.ch1_media video {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 81px;
+    margin-top: 50px;
+   
+}
+.searchedit {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+}
+
+.setext {
+    margin-bottom: 40px;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+.setext h4 {
+    color: #626FFF;
+}
+
+.vid6 {
+    height: 450px;
+    overflow: visible;
+    display: flex;
+    align-content: center;
+    justify-content: center; 
+}
+
+
+.change3 {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+}
+
+.ch3 {
+    margin-bottom: 40px;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+.ch3 h4 {
+    color: #626FFF;
+}
+
+.ch3vid {
+    height: 450px;
+    overflow: visible;
+    
+    display: flex;
+    align-content: center;
+    justify-content: center; 
+}
+
+/*Final thoughts*/
+.final {
+    padding: 0px;
+    margin-bottom: 40px;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+    margin-bottom: 81px;
+}
+
+
+
+
+

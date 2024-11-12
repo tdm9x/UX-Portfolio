@@ -1,0 +1,84 @@
+@media only screen and (min-device-width: 480px) {
+
+    body {
+        background-color: white;
+        font-family: 'Amiamie';
+        color: black;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 40px;
+        justify-content: center;
+        position: static;
+        align-items: center;
+        overflow-x: hidden;
+        z-index: 100;
+        margin: 81px;
+    
+}
+
+/* header */
+
+.header {
+    background-color: #fffffff3;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+    z-index: 100;
+    transition: top 0.2s ease-in-out;
+    
+}
+
+.logo {
+    color: #000000;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+.navigation a {
+    position: relative;
+    font-size: 16px;
+    text-decoration: none;
+    color: #000000;
+    margin-left: 20px;
+    font-weight: 400;
+    justify-content: space-between;
+}
+
+.navigation a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #ff0000;
+    transition: .3s;
+
+}
+
+.navigation a:hover::before {
+    width: 100%;
+}
+
+/*Footer*/
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: left;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+}

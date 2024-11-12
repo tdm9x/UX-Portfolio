@@ -1,0 +1,137 @@
+body {
+    background-color: white;
+    font-family: 'Amiamie';
+    color: black;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 40px;
+    margin-bottom: 40px;
+    justify-content: center;
+    position: static;
+    align-items: center;
+    box-sizing: border-box;
+    z-index: 100;
+    
+}
+
+/* header */
+
+.header {
+    background-color: #fffffff3;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+    z-index: 100;
+    transition: top 0.2s ease-in-out;
+    
+}
+
+.logo {
+    color: #000;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+.navigation a {
+    position: relative;
+    font-size: 16px;
+    text-decoration: none;
+    color: #000000;
+    margin-left: 20px;
+    font-weight: 400;
+    justify-content: space-between;
+}
+
+.navigation a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #ff0000;
+    transition: .3s;
+
+}
+
+.navigation a:hover::before {
+    width: 100%;
+}
+
+.title {
+    align-items: center;
+    justify-content: center;
+    margin-top: 81px;
+    text-align: left;
+}
+
+.projects {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    padding: 0px;
+}
+
+p {
+    font-style: italic;
+}
+.link-section {
+    text-decoration: none;
+    align-items: center;
+    position: relative;
+    color: inherit;
+    display: contents;
+  
+}
+.p1 {
+    background: linear-gradient(261.68deg, #626FFF 6.36%, rgba(72, 85, 230, 0.76) 42.59%, rgba(133, 113, 255, 0.76) 83.36%);
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.p2 {
+    background: linear-gradient(261.68deg, #EB5308 6.36%, rgba(252, 118, 60, 0.76) 44.86%, rgba(251, 137, 32, 0.68) 83.36%);
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.p3 {
+    background: linear-gradient(180deg, #F44E4E 0%, #BC3737 50%, #F48A4E 100%);
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+
+

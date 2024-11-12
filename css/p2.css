@@ -1,0 +1,680 @@
+@media only screen and (min-device-width: 480px) {
+
+    body {
+        background-color: white;
+        font-family: 'Amiamie';
+        color: black;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 40px;
+        justify-content: center;
+        position: static;
+        align-items: center;
+        overflow-x: hidden;
+        z-index: 100;
+        
+    }
+    
+    /* header */
+    
+    .header {
+        background-color: #fffffff3;
+        width: 100%;
+        top: 0;
+        left: 0;
+        padding: 20px;
+        position: fixed;
+        display: flex;
+        justify-content: space-between;
+        box-sizing: border-box;
+        align-items: center;
+        z-index: 100;
+        transition: top 0.2s ease-in-out;
+        
+    }
+    
+    .logo {
+        color: #000000;
+        text-decoration: none;
+        font-size: 24px;
+        font-weight: 700;
+    
+    }
+    
+    .navigation a {
+        position: relative;
+        font-size: 16px;
+        text-decoration: none;
+        color: #000000;
+        margin-left: 20px;
+        font-weight: 400;
+        justify-content: space-between;
+    }
+    
+    .navigation a::before {
+        content: '';
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background: #ff0000;
+        transition: .3s;
+    
+    }
+    
+    .navigation a:hover::before {
+        width: 100%;
+    }
+    
+    /*scstrat*/
+    
+    .scstart {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        padding: 50px 50px;
+    
+        /* Inside auto layout */
+      
+        margin-bottom: 81px;
+        
+    }
+    .introstart {
+      display: flex;
+        flex-direction: column;
+        gap: 36px;
+        align-items: center;
+    
+    }
+    
+    
+    
+    .introvid video {
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 40px;
+        border: solid 1px #000000;
+        border-radius: 30px;
+        padding: 10px;
+        
+    }
+    
+    .starttext h3 {
+        font-size: 24px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    
+    .starttext p {
+     
+        font-size: 16px;
+        font-style: italic;
+        text-align: center;
+    }
+    
+    .scroll svg, button {
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        width: 24px;
+        border: none;  
+        background-color: #fff; 
+        cursor: pointer;
+        
+        
+       
+        bottom: 0;
+        
+       
+    }
+    
+    /*project details*/
+    
+    .project_details1 {
+            
+            position: relative;
+            /* Auto layout */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 50px;
+            height: 100%;
+           
+            
+            justify-content: center;
+           
+            color: #fff;
+            background: linear-gradient(261.68deg, #EB5308 6.36%, rgba(252, 118, 60, 0.76) 44.86%, rgba(251, 137, 32, 0.68) 83.36%);
+            border-radius: 50px;
+        
+            /* Inside auto layout */
+            flex: none;
+            order: 2;
+            flex-grow: 0;
+            margin-bottom: 81px;
+    
+    }
+    /*challenge*/
+    
+    .challenge {
+        flex-direction: column;
+        padding: 0px;
+        margin-bottom: 81px;
+        align-items: right;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .chquest {
+        color: #EB5308;
+    }
+    
+    /*project goals*/
+    
+    .projectgoals {
+       
+        padding: 0px;
+        margin-bottom: 40px;
+        align-items: center;
+        text-align: left;
+        justify-content: center;
+    }
+    
+    .projectgoals h3 {
+        text-align: center;
+    }
+    
+    .projectgoals h4 {
+        color: #EB5308;
+        align-items: center;
+        text-align: left;
+    }
+    
+    .projectgoals p {
+        align-items: center;
+        text-align: left;
+    }
+    .goal3 {
+        margin-bottom: 81px;
+    }
+    
+    /*Competitive Analysis*/
+    
+    .companalysis {
+        padding: 0px;
+        margin-bottom: 40px;
+        align-items: center;
+        text-align: left;
+        justify-content: center;
+    }
+    
+    .ca h4 {
+        color: #EB5308;
+    }
+    
+    .ca img {
+        align-items: center;
+        justify-content: center;
+        
+        margin-bottom: 81px;
+        max-width: 100%;
+        height: auto;
+    }
+    
+    /*insights*/
+    .allinsights {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        margin-bottom: 81px;
+        padding: 0px;
+        align-items: center;
+        text-align: left;
+        justify-content: center;
+    }
+    .insight1 {
+        border: #EB5308 solid;
+        height: 100%;
+        width: 100%;
+        padding: 16px;          
+        background-color: #ffffff; 
+        color: rgb(0, 0, 0);             
+        display: flex;
+        position: relative;
+        align-items: normal;
+        border-radius: 20px; 
+       
+    }
+    
+    .intitle1 h4{
+        color: #EB5308;
+    }
+
+    .intitle1 {
+        text-align: left;
+        align-items: normal;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .insight2 {
+        border: #EB5308 solid;
+        height: 100%;
+        width: 100%;
+        padding: 16px;          
+        background-color: #ffffff; 
+        color: rgb(0, 0, 0);             
+        display: flex;
+        position: relative;
+        align-items: normal;
+        border-radius: 20px; 
+    }
+
+    .intitle2 {
+        text-align: left;
+        align-items: normal;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .intitle2 h4 {
+        color: #EB5308;
+    }
+    
+    .insight3 {
+        border: #EB5308 solid;
+        height: 100%;
+        width: 100%;
+        padding: 16px;          
+        background-color: #ffffff; 
+        color: rgb(0, 0, 0);             
+        display: flex;
+        position: relative;
+        align-items: normal;
+        border-radius: 20px; 
+    }
+
+    .intitle3 {
+        text-align: left;
+        align-items: normal;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .intitle3 h4 {
+        color: #EB5308;
+    }
+
+    .results {
+        color: #EB5308;
+    }
+    
+   
+    
+    
+    /*UI Design*/
+    
+    .ui_design {
+        padding: 0px;
+        margin-bottom: 40px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .uititle1 h4 {
+        color:#EB5308;
+    }
+    
+    .uititle1 a {
+        color: #EB5308;
+        margin-bottom: 81px;
+    }
+    
+    /*UI Elements*/
+    
+    .ui_elements {
+        padding: 0px;
+        margin-bottom: 40px;
+        align-items: center;
+        text-align: left;
+        justify-content: center;
+    }
+    
+    .colors img {
+        align-items: center;
+        justify-content: center;
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 81px;
+        border: solid 1px #000000 ;
+        border-radius: 20px;
+    }
+    
+    .icons img {
+        align-items: center;
+        justify-content: center;
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 81px;
+    }
+    
+    .typography img {
+        align-items: center;
+        justify-content: center;
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 81px;
+    }
+    
+    .sbtext {
+        display: flex;
+        flex-direction: column;
+        align-self: normal;
+    
+    }
+    
+    .sbimg img {
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        
+      
+    }
+    
+    .sidebar {
+        padding: 0px;
+        margin-bottom: 40px;
+        align-items: center;
+        text-align: left;
+        justify-content: center;
+    }
+    
+    
+    .mplayer {
+        padding: 0px;
+        margin-bottom: 40px;
+        align-items: center;
+        text-align: left;
+        justify-content: center;
+    }
+    
+    .mptext{
+        display: flex;
+        flex-direction: column;
+        align-items: normal;
+        height: auto;
+        text-align: left;
+        justify-content: center;
+       
+    }
+    .mpimg img {
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+    }
+    .tab {
+        padding: 0px;
+        margin-bottom: 40px;
+        align-items: center;
+        text-align: left;
+        justify-content: center;
+    }
+    .tab video {
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+       
+        
+        border: solid 1px #000000;
+        border-radius: 30px;
+       
+    }
+    .tracks {
+        padding: 0px;
+        margin-bottom: 40px;
+        align-items: center;
+        text-align: left;
+        justify-content: center;
+    }
+    .tracks video {
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        
+       
+        
+        border: solid 1px #000000;
+        border-radius: 30px;
+        
+    }
+
+    .searchbar {
+        padding: 0px;
+        margin-bottom: 40px;
+        align-items: center;
+        text-align: left;
+        justify-content: center;
+    }
+    
+    .searchbar video {
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        
+ 
+        
+        border: solid 1px #000000;
+        border-radius: 30px;
+       
+    }
+
+    .filter {
+        padding: 0px;
+        margin-bottom: 40px;
+        align-items: center;
+        text-align: left;
+        justify-content: center;
+    }
+    
+    .filter video {
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        
+        
+        
+        border: solid 1px #000000;
+        border-radius: 30px;
+        
+    }
+    .custom {
+        padding: 0px;
+        margin-bottom: 40px;
+        align-items: center;
+        text-align: left;
+        justify-content: center;
+    }
+    .upload video {
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+       
+        
+       
+        border: solid 1px #000000;
+        border-radius: 30px;
+    
+    }
+    
+    .playlist {
+        padding: 0px;
+        margin-bottom: 40px;
+        align-items: center;
+        text-align: left;
+        justify-content: center;
+    }
+    /*User Testing*/
+    
+    .usertest {
+        padding: 0px;
+        margin-bottom: 40px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .usertest h4 {
+        color: #EB5308;
+    }
+    
+  
+    
+    .uttitle1 video {
+        margin-bottom: 81px;
+    }
+    
+    .custom_media video {
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+       
+        
+        border: solid 1px #000000;
+        border-radius: 30px;
+        padding: 10px;
+        
+    }
+    
+    .playlist video {
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+       
+        border: solid 1px #000000;
+        border-radius: 30px;
+        padding: 10px;
+    }
+    
+    .upload {
+        padding: 0px;
+        margin-bottom: 40px;
+        align-items: center;
+        text-align: left;
+        justify-content: center;
+       
+    }
+    
+  
+    
+    .uploadvids {
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+       
+        
+    
+    }
+    /*key changes*/
+    
+    .keychanges {
+        padding: 0px;
+        margin-bottom: 40px;
+        align-items: center;
+        text-align: left;
+        justify-content: center;
+    }
+    
+    .keychanges img {
+        align-items: center;
+        justify-content: center;
+       
+      
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .keychanges h4 {
+        color: #EB5308;
+    }
+
+    .change1 {
+        display: flex;
+        flex-direction: column;
+       
+        width: 100%;
+        margin-bottom: 81px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .ch1text {
+        padding: 0px;
+        margin-bottom: 40px;
+        align-items: center;
+        text-align: left;
+        justify-content: center;
+    }
+
+   
+    
+    .change2 video {
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 81px;
+        margin-top: 50px;
+        border: solid 1px #000000;
+        border-radius: 30px;
+        padding: 10px;
+    }
+    
+    .miniplayer video {
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 81px;
+        margin-top: 50px;
+        border: solid 1px #000000;
+        border-radius: 30px;
+        padding: 10px;
+    }
+    /*Final Thoughts*/
+    
+    .final {
+        padding: 0px;
+        margin-bottom: 40px;
+        align-items: center;
+        text-align: left;
+        justify-content: center;
+    }
+    
+    .final h4 {
+        color: #EB5308;
+    }
+    
+    .final li {
+        margin-bottom: 24px;
+    }
+    
+    .change4 video{
+    
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 81px;
+        margin-top: 50px;
+        border: solid 1px #000000;
+        border-radius: 30px;
+        padding: 10px;
+    }
+    
+
+}
