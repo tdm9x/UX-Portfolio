@@ -3,7 +3,7 @@
 
     <head>
         <title>Sharpen Case Study</title>
-        <link rel="stylesheet" href="../assets/css/p1.css">
+        <link rel="stylesheet" href="../css/p1.css">
         <script src="../pages/jwjs.js"></script>
         <script src="https://kit.fontawesome.com/25b0513784.js" crossorigin="anonymous"></script> 
         <meta charset="utf-8" />
@@ -14,15 +14,15 @@
     
         <header class="header">
 
-            <a href="home" class="logo">Tyler Moore</a>
+            <a href="../h1.html" class="logo">Tyler Moore</a>
     
             
                 <nav>
                 
                     <nav class="navigation">
-                        <a href="allprojects">projects</a>
-                        <a href="aboutme.html">about me</a>
-                        <a href="contact">contact</a>
+                        <a href="../pages/ap1.html">projects</a>
+                        <a href="../pages/about1.html">about me</a>
+                        <a href="../pages/contact1.html">contact</a>
                     </nav>
     
         </header>
@@ -30,26 +30,24 @@
 <!--start-->
 
 <section class="start">
-    <div class="introstart">
-        <div class="intro1">
-            <h3>Sharpen Mobile Design</h3>
-            <p>Prompt generator app design</p>
-        </div>
-
-        <div class="introvid">
-            <video autoplay loop muted playsinline>
-                <source src="../assets/images/icons/sharpen start video crop.mp4">
-            </video>
-        </div>
-
-         
-    </div> 
-
-    <div class="scroll">
-        <button class="scroll-btn" data-target="#section1">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>
-        </button>
+<div class="introstart">
+    <div class="introvid">
+    <video autoplay loop muted playsinline>
+        <source src="../sharpen media 2/sharpen start video crop.mp4">
+    </video>
     </div>
+
+    <div class="intro1">
+        <h1>Sharpen Mobile Design</h1>
+        <p>Prompt generator app design</p>
+    </div>
+</div> 
+
+<div class="scroll">
+    <button class="scroll-btn" data-target="#section1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>
+    </button>
+</div>
 
 </section>
 
@@ -60,17 +58,19 @@
     <div class="gradientblock1"></div>
         
         <div class="duration">
-            <h4>Project Duration</h4>
-            <p>September 2024  - October 2024</p>
+            <h3>Project Duration</h3>
+            <p>September 2023  - October 2023</p>
         </div>
 
          <div class="role">
-            <h4>My Role</h4>
-            <p>Lead UX/UI designer</p>
+            <h3>My Role</h3>
+            <p>Lead UX designer designing an app for 
+                Sharpen from conception to delivery.
+            </p>
          </div>
 
          <div class="rsptitle">
-            <h4>Responsibilities</h4>
+            <h3>Responsibilities</h3>
             <p>Conducting research, low fidelity sketches, 
                 mockups, high fidelity prototypes, conducting usability 
                 studies, accounting for accessibility, and iterating on 
@@ -152,14 +152,14 @@
             card-sorting exercise to find common themes 
             amongst the respondents.
         </p>
-        <img src="../assets/images/icons/sharpen+card+stacking.png" alt="cardstack">
+        <img src="../images/sharpen+card+stacking.png" alt="cardstack">
 </section>
 
 <!--insights-->
 
 <section class="allinsights">
 
-<div class="insight1">
+<section class="insight1">
 
     <div class="intitle1">
         <h3>Insight #1</h3>
@@ -168,17 +168,18 @@
             that can't be accessed on the main dropdown 
             menu shown in the header.
         </p>
-        <p class="results">Result: The mobile app will allow users to 
+    </div>
+
+    <div class="solution">
+        <p>Result: The mobile app will allow users to 
             access other free generators Sharpen offers 
             on an easily accessible page.
         </p>
     </div>
 
+</section>
 
-
-</div>
-
-<div class="insight2">
+<section class="insight2">
 
     <div class="intitle2">
         <h3>Insight #2</h3>
@@ -187,16 +188,17 @@
             the site directly. Users have to take screenshots 
             of prompts or jot them down manually.
         </p>
-        <p class="results">Result: Users will be able to save prompts and 
-            access them for later use.</p>
     </div>
 
-    
-    
+    <div class="solution2">
+        <p>Result: Users will be able to save prompts and 
+            access them for later use.
+        </p>
+    </div>
 
-</div>
+</section>
 
-<div class="insight3">
+<section class="insight3">
 
     <div class="intitle3">
         <h3>Insight #3</h3>
@@ -204,13 +206,16 @@
         <p>When browsing for new challenges, users would accidentally 
             skip the prompts that they were considering.
         </p>
-        <p class="results">Result: Prompt generators will have a reverse prompt option 
-            available for use.</p>
     </div>
 
-    
+    <div class="solution3">
+        <p>Result: Prompt generators will have a reverse prompt option 
+            available for use.
+        </p>
+    </div>
 
-</div>
+</section>
+
 </section>
 
 <!--sitemap-->
@@ -226,7 +231,7 @@
             is accessed. This allowed me to make the appropriate decisions 
             on how users would navigate the app easily.
         </p>
-        <img src="../assets/images/icons/pointatob.png" alt="pointa2b">
+        <img src="../images/pointatob.png" alt="pointa2b">
 
     </div>
 
@@ -245,7 +250,7 @@
             I noted possible changes needed and then brought the 
             ideations to life in Figma.
         </p>
-        <img src="../assets/images/icons/mockup changes.jpg" alt="lofi">
+        <img src="../images/mockup changes.jpg" alt="lofi">
 
 </section>
 
@@ -260,9 +265,9 @@
             colors, typography, and many more elements shown on the webpage.
             <br>
         </p>
-        <a href="">Sharpen Mobile UI Design Kit</a>
+        <a href="https://www.figma.com/proto/NumbGZNAqgPaQvVSWWQx3Z/Sharpen-UI?page-id=281%3A9629&node-id=281-9718&node-type=canvas&viewport=261%2C289%2C0.1&t=P18ltadwkX1yMYeQ-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=348%3A2732">Sharpen Mobile UI Design Kit</a>
         <video loop autoplay muted playsinline>
-            <source src="../assets/images/icons/sharpen ui kit crop.mp4">
+            <source src="../sharpen media 2/sharpen ui kit crop.mp4">
         </video>
  
 </section>
@@ -281,7 +286,7 @@
 </div>
     <div class="vid2">
         <video autoplay loop muted playsinline>
-            <source src="../assets/images/icons/sharpen user flow crop.mp4">
+            <source src="../sharpen media 3/sharpen user flow crop.mp4">
         </video>
     </div>
 </section>
@@ -290,7 +295,14 @@
 
 <section class="onboarding">
     
+    <div class="ob_vid">
+        <video autoplay loop muted playsinline>
 
+        <source src="../sharpen media 1/sharpen onboarding crop.mp4">
+    
+        </video>
+    </div>
+    
     <div class="obtext">
         <h3>Show them the way</h3>
         <h4>Onboarding</h4>
@@ -300,15 +312,7 @@
             features and functionality of the app's prompt generator.
         </p>
     </div>
-    
-    <div class="ob_vid">
-        <video autoplay loop muted playsinline>
-
-        <source src="../assets/images/icons/sharpen onboarding crop.mp4">
-    
-        </video>
-    </div>
-    
+        
 
 
 </section>
@@ -329,7 +333,7 @@
         <!--video-->
     <div class="trst_vid">
         <video autoplay loop muted playsinline>
-            <source src="../assets/images/icons/sharpen new challenge crop.mp4">
+            <source src="../sharpen media 1/sharpen new challenge crop.mp4">
         </video>
     </div>
 </section>
@@ -338,6 +342,12 @@
 
 <section class="dropdownmenu">
 
+    <!--video-->
+    <div class="vid5">
+        <video autoplay loop muted playsinline>
+            <source src="../sharpen media 1/sharpen dropdown crop.mp4">
+        </video>
+    </div>
 
     <div class="dm">
         <h3>Viewing details</h3>
@@ -349,13 +359,6 @@
         </p>
     </div>
    
-       <!--video-->
-       <div class="vid5">
-        <video autoplay loop muted playsinline>
-            <source src="../assets/images/icons/sharpen dropdown crop.mp4">
-        </video>
-    </div>
-
 </section>
 
 <!--user testing-->
@@ -393,7 +396,7 @@
 
             <div class="ch1_media">
                 <video autoplay loop muted playsinline>
-                    <source src="../assets/images/icons/sharpen menu change crop.mp4">
+                    <source src="../sharpen media 1/sharpen menu change crop.mp4">
                 </video>
                 
             </div>
@@ -427,7 +430,7 @@
                 <!--video-->
                     <div class="vid6">
                         <video autoplay loop muted playsinline>
-                            <source src="../assets/images/icons/sharpen saved edit crop.mp4">
+                            <source src="../sharpen media 1/sharpen saved edit crop.mp4">
                         </video>
                     </div>
         </section>
@@ -436,22 +439,21 @@
 
 <section class="change3">
    
+    <div class="ch3vid">
+        <video autoplay loop muted playsinline>
+        <source src="../sharpen media 1/sharpen scroll crop.mp4">
+    </video>
+    </div>
 
     <div class="ch3">
         <h3>Change #3</h3>
         <h4>Less is more</h4>
-        <p>Users found the amount of scrolling needed to find the 
+    <p>Users found the amount of scrolling needed to find the 
             free generators excessive. I created a tab component 
             to allow users to switch between the featured and free generators 
             Sharpen offers.
-        </p>
-    </div>   
-    
-    <div class="ch3vid">
-        <video autoplay loop muted playsinline>
-            <source src="../assets/images/icons/sharpen scroll crop.mp4">
-        </video>
-    </div>
+    </p>
+    </div>    
 </section>
 
 
