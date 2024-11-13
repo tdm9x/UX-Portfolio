@@ -13,6 +13,10 @@ body {
     z-index: 100;
     
 }
+@font-face {
+    font-family: 'Amiamie';
+    src: url('/Amiamie-Regular.ttf') format('ttf');
+}
 
 /* header */
 
