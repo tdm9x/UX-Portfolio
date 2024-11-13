@@ -2,7 +2,7 @@
     <html>
         <head>
             <title>ATL Scoop Mobile App Design</title>
-            <link rel="stylesheet" href="../assets/css/p3.css">
+            <link rel="stylesheet" href="../css/p3.css">
             <meta charset="utf-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
             <script src="../pages/jwjs.js"></script>
@@ -15,15 +15,15 @@
 
 <header class="header">
 
-    <a href="home" class="logo">tdm</a>
+    <a href="../h1.html" class="logo">Tyler Moore</a>
 
     
         <nav>
         
             <nav class="navigation">
-                <a href="allprojects">projects</a>
-                <a href="aboutme.html">about me</a>
-                <a href="contact">contact</a>
+                <a href="../pages/ap1.html">projects</a>
+                <a href="../pages/about1.html">about me</a>
+                <a href="../pages/contact1.html">contact</a>
             </nav>
 
 </header>
@@ -32,17 +32,15 @@
 <section class="start">
     
 <div class="introstart">
-    
-    <div class="text">
-        <h3>ATL Scoop Mobile App Design</h3>
-        <p>Mobile news application</p>
-    </div>
-     <div class="vid1">
+    <div class="vid1">
         <video autoplay loop muted playsinline>
             <source src="../assets/images/icons/full user flow edit.mp4">
         </video>
     </div>
-   
+    <div class="text">
+        <h3>ATL Scoop Mobile App Design</h3>
+        <p>Mobile news application</p>
+    </div>
 </div>
 
 <div class="scroll">
@@ -181,7 +179,7 @@
         <h3>Make Atlanta Cyber</h3>
         <h4>UI Design</h4>
         <p>ATLScoop aimed to show users Atlanta stories and culture through the lenses of a mobile phone. I aimed to do this by creating a UI Design Style that was cohesive to this goal while adhering to the readability and versatility needed to be a news application for the new age.</p>
-        <a href="">ATL Scoop UI Design Kit</a>
+        <a href="https://www.figma.com/proto/GhUNXRPHCwPwY9Zfw5MqQc/atl-scoop?page-id=421%3A2023&node-id=628-2749&node-type=canvas&viewport=406%2C351%2C0.1&t=UjdMnit9KzfwcqdW-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=421%3A2200">ATL Scoop UI Design Kit</a>
     </div>
 </section>
 
@@ -193,33 +191,37 @@
     <div class="colors">
         <h3>Colors</h3>
         <p>The design's color scheme focused on choosing a readable shade of red alongside black, representing Atlanta and commonly seen in many of the city's sports teams.</p>
-        <img src="../assets/images/icons/Colors atl.png" alt="colors">
+        <img src="../images/Colors atl.png" alt="colors">
     </div>
 
     <div class="icons">
         <h3>Icons</h3>
         <p>I decided to design the icons as a challenge for myself as a UI designer and to give the app an original style. I gave the icons a minimal, round, and flat style. </p>
-        <img src="../assets/images/icons/icons atl.png" alt="icons">
+        <img src="../images/icons atl.png" alt="icons">
     </div>
 
     <div class="typography">
         <h3>Typography</h3>
         <p>Selected Anderson Grotesk for its high legibility, clean and minimalist design, and contemporary, streamlined look.</p>
-        <img src="../assets/images/icons/typography atl.png" alt="typography">
+        <img src="../images/typography atl.png" alt="typography">
     </div>
 
     <div class="stories">
-        <div class="storytext">
-            <h3>Stories</h3>
-            <p>A stories bar was implemented into the homepage for users to access.</p>
-        </div>
-        <video autoplay loop muted playsinline>
-            <source src="../assets/images/icons/story atl.mp4">
-        </video>
-    </div>
-
-   
-
+        <h3>Stories</h3>
+        <p>A stories bar was implemented into the homepage for users to access.</p>
+        
+        <div class="storymedia">
+            <div class="story_img">
+                <img src="../images/stories.png" alt="">
+            </div>
+            
+            <div class="story-vid">
+                    <video autoplay loop muted playsinline>
+                        <source src="../atl media 2/story atl.mp4">
+                    </video>
+            </div>    
+        
+        </div> 
     
     </div>
 
@@ -227,7 +229,7 @@
         <h3>Tab Bar</h3>
         <p>Designed a tab bar to reduce infinite scrolling by organizing content into key categories.</p>
         <video loop muted playsinline autoplay>
-            <source src="../assets/images/icons/atl tab bar crop.mp4">
+            <source src="../atl media 1/atl tab bar crop.mp4">
         </video>
     </div>
 
@@ -238,7 +240,7 @@
                 the app. Brand colors were utilized to emphasize the 
                 active status of the available pages.</p>
         </div>
-            <img src="../assets/images/icons/atl  navigation comp.png" alt="">  
+            <img src="../images/atl  navigation comp.png" alt="">  
         
     </div>
 
@@ -248,7 +250,7 @@
         <h3>Breaking News Banner</h3>
         <p>A news banner UI was designed on the homepage to draw immediate attention to urgent, time-sensitive information.</p>
         <video autoplay loop muted playsinline>
-            <source src="../assets/images/icons/news banner atl.mp4">
+            <source src="../atl media 2/news banner atl.mp4">
         </video>
     </div>
     
@@ -260,13 +262,13 @@
         <div class="overlaymedia"> 
             <div class="overlay1">
                 <video autoplay loop muted playsinline>
-                    <source src="../assets/images/icons/atl scoop search overlay crop.mp4">
+                    <source src="../atl media 1/atl scoop search overlay crop.mp4">
                 </video>
             </div>
 
             <div class="overlay2">
                 <video autoplay loop muted playsinline>
-                    <source src="../assets/images/icons/atl scoop comment overlay crop.mp4">
+                    <source src="../atl media 1/atl scoop comment overlay crop.mp4">
                 </video>
             </div>
         </div>
@@ -289,11 +291,9 @@
                 <h4>Font Size Adjustment</h4>
                 <p>Font Size Adjustment: This setting option was created to allow those with readability issues to see the text in larger or smaller sizes.</p>
             </div>
-            <div class="fsvid">
             <video autoplay loop muted playsinline>
-                <source src="../assets/images/icons/atl font adj crop.mp4">
+                <source src="../atl media 1/atl font adj crop.mp4">
             </video>
-        </div>
         </div>
 
         <div class="readerview">
@@ -304,7 +304,7 @@
                     <p>A reader view was added to the news article page to help users focus more effectively on the content.</p>
                 </div>
                 <video autoplay loop muted playsinline>
-                    <source src="../assets/images/icons/reader view atl.mp4">
+                    <source src="../atl media 2/reader view atl.mp4">
                 </video>
         </div>
 
@@ -315,7 +315,7 @@
                 <p>A text-to-speech button was added to the news articles on the page to assist individuals with reading difficulties.</p>
             </div>
             <video autoplay loop muted playsinline>
-                <source src="../assets/images/icons/text to speech atl.mp4">
+                <source src="../atl media 2/text to speech atl.mp4">
             </video>
            
         </div>
@@ -338,7 +338,7 @@
             <p>I removed the tab bar and highlighted the latest, for you, and trending categories within the listed articles. I added a card section below for the other browsable categories available to enhance the homepage appearance even more.</p>
         </div>
             <video autoplay loop muted playsinline>
-                <source src="../assets/images/icons/new homepage scroll - Made with Clipchamp.mp4">
+                <source src="../atl media 3/new homepage scroll - Made with Clipchamp.mp4">
             </video>
         </div>
 
@@ -348,7 +348,7 @@
             <h4>Change #2</h4>
             <p>Settings options were made available on the profile page to allow users to personalize their experience. Users would now access their notifications in the header.</p>
         </div>
-        <img src="../assets/images/icons/atl menu change.png" alt="">
+        <img src="../images/atl menu change.png" alt="">
     </div>
 
     <div class="change3">
@@ -357,7 +357,7 @@
             <h4>Change #3</h4>
             <p>Icons for sharing on various social sites were removed from near the article title and replaced with a share icon in the header for easier access. A new navigation bar, fixed to the bottom of the page, was added to allow users to comment, like, and bookmark articles.</p>
         </div>
-            <img src="../assets/images/icons/article page change.png" alt="">
+            <img src="../images/article page change.png" alt="">
     </div>
     
     <div class="change4">
@@ -368,7 +368,7 @@
             <p>Onboarding UI was created to give users insight into how to operate the app and its features. Also allowed users to personalize a few of the most important settings.</p>
         </div>
         <video autoplay loop muted playsinline>
-            <source src="../assets/images/icons/news article onboard atl.mp4">
+            <source src="../atl media 1/news article onboard atl.mp4">
         </video>
     </div>
 </section>
