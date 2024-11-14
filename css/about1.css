@@ -1,8 +1,8 @@
-@media only screen and (max-width: 480px) {
+@media only screen and (min-device-width: 480px) {
 
     body {
         background-color: white;
-        font-family: "Geist", sans-serif;
+        font-family: 'Amiamie';
         color: black;
         padding-left: 50px;
         padding-right: 50px;
@@ -18,74 +18,56 @@
 
 /* header */
 
-body {
-    background-color: white;
-    font-family: "Geist", sans-serif;
-    color: black;
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-top: 40px;
-    margin-bottom: 40px;
-    justify-content: center;
-    position: static;
-    align-items: center;
+.header {
+    background-color: #fffffff3;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
     box-sizing: border-box;
+    align-items: center;
     z-index: 100;
+    transition: top 0.2s ease-in-out;
     
 }
 
+.logo {
+    color: #000000;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
 
-/* header */
+}
 
-    .header {
-        background-color: #fffffff3;
-        width: 100%;
-        top: 0;
-        left: 0;
-        padding: 20px;
-        position: fixed;
-        display: flex;
-        justify-content: space-between;
-        box-sizing: border-box;
-        align-items: center;
-        z-index: 100;
-        transition: top 0.2s ease-in-out;
-        
-    }
-    
-    .logo {
-        color: #000000;
-        text-decoration: none;
-        font-size: 12px;
-        font-weight: 700;
-    
-    }
-    
-    .navigation a {
-        position: relative;
-        font-size: 12px;
-        text-decoration: none;
-        color: #000000;
-        margin-left: 20px;
-        font-weight: 400;
-        justify-content: space-between;
-    }
-    
-    .navigation a::before {
-        content: '';
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 0;
-        height: 2px;
-        background: #ff0000;
-        transition: .3s;
-    
-    }
-    
-    .navigation a:hover::before {
-        width: 100%;
-    }
+.navigation a {
+    position: relative;
+    font-size: 16px;
+    text-decoration: none;
+    color: #000000;
+    margin-left: 20px;
+    font-weight: 400;
+    justify-content: space-between;
+}
+
+.navigation a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #ff0000;
+    transition: .3s;
+
+}
+
+.navigation a:hover::before {
+    width: 100%;
+}
+
 /*Footer*/
 footer {
     background-color: #000000;
