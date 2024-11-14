@@ -1,6 +1,6 @@
 body {
     background-color: white;
-    font-family: "Geist", sans-serif;
+    font-family: 'Amiamie';
     color: black;
     padding-left: 200px;
     padding-right: 200px;
@@ -451,6 +451,7 @@ body {
    .tab_bar video {
         align-items: center;
         justify-content: center;
+        overflow: hidden;
         width: 100%;
         margin-bottom: 81px;
         border-radius: 30px;
@@ -477,9 +478,12 @@ body {
 
    .banner video {
         
-        height: 450px;
-        overflow: hidden;
-        display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 81px;
+    border-radius: 30px;
    }
 
    .overlaymedia {
@@ -568,6 +572,7 @@ body {
         height: 450px;
         display: flex;
         align-items: center;
+        overflow: hidden;
     }
     
     .speech {
