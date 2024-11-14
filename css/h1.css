@@ -1,280 +1,128 @@
-@media only screen and (min-device-width: 480px) {
+@media only screen and (max-width: 480px) {
     body {
         background-color: white;
         font-family: "Geist", sans-serif;
         color: black;
-        padding-left: 50px;
-        padding-right: 50px;
-        padding-top: 40px;
-        justify-content: center;
-        position: static;
+        padding: 20px;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
         align-items: center;
+        justify-content: center;
         overflow-x: hidden;
-        z-index: 100;
-        
     }
     
-    /* header */
-    
+    /* Header */
     .header {
         background-color: #fffffff3;
         width: 100%;
-        top: 0;
-        left: 0;
-        padding: 20px;
+        padding: 10px;
         position: fixed;
         display: flex;
-        justify-content: space-between;
-        box-sizing: border-box;
+        flex-direction: column;
         align-items: center;
+        box-sizing: border-box;
         z-index: 100;
-        transition: top 0.2s ease-in-out;
-        
-        
+        top: 0;
     }
-    
+
     .logo {
         color: #000000;
         text-decoration: none;
-        font-size: 24px;
+        font-size: 20px;
         font-weight: 700;
-    
     }
     
+    .navigation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+
     .navigation a {
-        position: relative;
-        font-size: 16px;
+        font-size: 14px;
         text-decoration: none;
         color: #000000;
-        margin-left: 20px;
+        margin: 5px 0;
         font-weight: 400;
-        justify-content: space-between;
     }
     
     .navigation a::before {
         content: '';
         position: absolute;
-        top: 100%;
-        left: 0;
         width: 0;
         height: 2px;
         background: #ff0000;
         transition: .3s;
-    
     }
     
     .navigation a:hover::before {
         width: 100%;
     }
     
-    /*introduction*/
+    /* Introduction */
     .intro {
-        
-        margin-bottom: 81px;
-        align-items: center;
-        text-align: left;
-        justify-content: center;
+        margin-top: 100px; /* To offset fixed header */
+        text-align: center;
+        padding: 10px;
     }
     
     .introtext h3 {
-       margin-top: 81px;    
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-        font-size: 32px;
+        font-size: 24px;
+        margin-top: 20px;
     }
     
     .introtext p {
-        padding: 0px;
-        
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-        font-size: 16px;
+        font-size: 14px;
+        padding: 0 10px;
     }
-    
-    .intro {
+
+    /* Projects */
+    .allprojects {
         display: flex;
         flex-direction: column;
-        gap: 32px;
         align-items: center;
+        margin: 20px 0;
     }
-    
-    .scroll svg, button {
-        position: relative;
+
+    .projects, .SC, .AS {
+        width: 90%;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
         align-items: center;
-        justify-content: center;
-        width: 24px;
-        border: none;  
-        background-color: #fff; 
-        cursor: pointer;
-        margin-bottom: 81px;
+        text-align: center;
+        border-radius: 15px;
+        margin-bottom: 20px;
+        transition: transform 0.3s ease;
     }
-    
+
     /* Project 1 */
-    
     .projects {
-        position: relative;
-        /* Auto layout */
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        width: 100%;
-        padding: 25px;
-        display: flex;
-        justify-content: center;
         background: linear-gradient(261.68deg, #626FFF 6.36%, rgba(72, 85, 230, 0.76) 42.59%, rgba(133, 113, 255, 0.76) 83.36%);
         color: #fff;
-        border-radius: 50px;
-        flex: none;
-        order: 2;
-        flex-grow: 0;
-        margin-bottom: 81px;
-        text-decoration: none; 
-        transition: transform 0.3s ease;
-          
     }
-    
-    .link-section {
-        text-decoration: none;
-        align-items: center;
-        position: relative;
-        color: inherit;
-        display: contents;
-      
-    }
-    
-    .projects:hover {
-        transform: scale(1.1); 
-    }
-    
-    .img {
-        align-items: center;
-    }
-    .text1 {
-        flex-direction: column;
-        
-        align-items: right;
-        text-align: left;
-        justify-content: center;
-    }
-    
-    /*project 2*/
-    
+
+    /* Project 2 */
     .SC {
-        position: relative;
-        /* Auto layout */
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        width: 100%;
-        padding: 25px;
-        display: flex;
-        justify-content: center;
         background: linear-gradient(261.68deg, #EB5308 6.36%, rgba(252, 118, 60, 0.76) 44.86%, rgba(251, 137, 32, 0.68) 83.36%);
-        border-radius: 50px;
-        flex: none;
-        order: 2;
-        flex-grow: 0;
-        margin-bottom: 81px;
-        transition: transform 0.3s ease; 
-    }
-    
-    .SC:hover {
-        transform: scale(1.1); 
-    }
-    
-    .link-section2 {
-        text-decoration: none;
-        align-items: center;
-        position: relative;
-        color: inherit;
-        display: contents;
-      
-    }
-    
-    .sc_img img {
-        align-items: center;
-       width: 100%;
-    }
-    .text2 {
-        flex-direction: column;
-        
-        align-items: center; 
-        text-align: left;
-        justify-content: center;
         color: #fff;
     }
-    
-    /*ATL Scoop*/
-    
+
+    /* Project 3 */
     .AS {
-        position: relative;
-        /* Auto layout */
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        width: 100%;
-        padding: 25px;
-        display: flex;
-        justify-content: center;
-       
-        color: #fff;
         background: linear-gradient(180deg, #F44E4E 0%, #BC3737 50%, #F48A4E 100%);
-        border-radius: 50px;
-    
-        /* Inside auto layout */
-        flex: none;
-        order: 2;
-        flex-grow: 0;
-        margin-bottom: 81px;
-        transition: transform 0.3s ease; 
-    }
-    
-    .AS:hover {
-        transform: scale(1.1); 
-        cursor: pointer;
-    }
-    
-    .link-section3 {
-        text-decoration: none;
-        align-items: center;
-        position: relative;
-        color: inherit;
-        display: contents;
-    }
-    
-    .atl_img {
-        align-items: center;
-    }
-    .text3 {
-        flex-direction: column;
-       
-       
-        align-items: right;
-        text-align: left;
-        justify-content: center;
         color: #fff;
     }
-    
-    .allprojects {
-       
-        place-items: center;
-        align-items: center;
-        
-        justify-content: center;
-        display: flex;
-        flex-direction: column;
-    
-        
+
+    .text1, .text2, .text3 {
+        text-align: center;
+        font-size: 14px;
+        color: #fff;
     }
-    
-    /*Footer*/
-    
-    
-    
-    
-    
-    
-    
+
+    .projects:hover, .SC:hover, .AS:hover {
+        transform: scale(1.05);
+    }
 }
