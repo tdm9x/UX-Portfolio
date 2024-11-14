@@ -1,22 +1,13 @@
-
-/* header */
-
 body {
     background-color: white;
-    font-family: "Geist", sans-serif;
+    font-family: 'Amiamie';
     color: black;
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-top: 40px;
-    margin-bottom: 40px;
+    padding: 100px 100px 100px 100px;
+    margin-bottom: 81px;
     justify-content: center;
-    position: static;
-    align-items: center;
-    box-sizing: border-box;
-    z-index: 100;
+    position: absolute;
     
 }
-
 
 /* header */
 
@@ -71,12 +62,71 @@ body {
 }
 
 /*Text*/
-.h3 {
-    margin-top: 81px;
-}
 
 .text p {
     margin-bottom: 81px;
 }
 
+/*Form*/
 
+.name input {
+    width: 100%;
+    margin-bottom: 8px;
+    border-radius: 24px;
+    border: 1px solid #ccc;
+    padding: 10px;
+
+}
+
+.email input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 16px;
+    border: 1px solid #ccc;
+}
+
+.message input {
+    width: 100%;
+     /* Adjust height as needed */
+    padding: 10px 10px 300px 10px;
+    
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    vertical-align: top; /* Aligns the text to the top */
+    box-sizing: border-box;
+    resize: none; /* Prevents resizing of the textarea */
+    line-height: 1em;
+}
+
+.submit input {
+    width: 81px;
+    align-items: center;
+    padding: 8px 16px;
+    border-radius: 32px;
+    border: none;
+    background-color: #000000;
+    color: #fff;
+    font-weight: 300;
+    
+    
+}
+
+.submit input:hover {
+    transition: ease 0.2s;
+    color: #000000;
+    background-color: #fff;
+    cursor: pointer;
+}
+/*Footer*/
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: left;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+}
