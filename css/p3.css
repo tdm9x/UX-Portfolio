@@ -15,7 +15,7 @@
     
     /* header */
     
-    .header {
+       .header {
         background-color: #fffffff3;
         width: 100%;
         top: 0;
@@ -32,10 +32,9 @@
     }
     
     .logo {
-        color: rgb(0, 0, 0);
+        color: #000000;
         text-decoration: none;
         font-size: 12px;
-        font-style: italic;
         font-weight: 700;
     
     }
@@ -45,7 +44,7 @@
         font-size: 12px;
         text-decoration: none;
         color: #000000;
-       margin-left: 20px;
+        margin-left: 20px;
         font-weight: 400;
         justify-content: space-between;
     }
