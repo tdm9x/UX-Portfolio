@@ -15,12 +15,12 @@ body {
 
 @font-face {
     font-family: 'Amiamie-Regular';
-    src: url(/fonts hub/Amiamie-Regular.otf);
+    src: url(/fonts hub/Amiamie-Regular.ttf);
 }
 
 @font-face {
     font-family: 'Amiamie-Black';
-    src: url(/fonts hub/Amiamie-Black.otf);
+    src: url(/fonts hub/Amiamie-Black.ttf);
 }
 
 h3 {
