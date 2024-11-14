@@ -11,8 +11,27 @@ body {
 
 /* header */
 
+body {
+    background-color: white;
+    font-family: "Geist", sans-serif;
+    color: black;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 40px;
+    margin-bottom: 40px;
+    justify-content: center;
+    position: static;
+    align-items: center;
+    box-sizing: border-box;
+    z-index: 100;
+    
+}
+
+
+/* header */
+
 .header {
-    background-color: #000000;
+    background-color: #fffffff3;
     width: 100%;
     top: 0;
     left: 0;
@@ -28,7 +47,7 @@ body {
 }
 
 .logo {
-    color: white;
+    color: #000000;
     text-decoration: none;
     font-size: 24px;
     font-weight: 700;
@@ -39,7 +58,7 @@ body {
     position: relative;
     font-size: 16px;
     text-decoration: none;
-    color: #fff;
+    color: #000000;
     margin-left: 20px;
     font-weight: 400;
     justify-content: space-between;
@@ -61,15 +80,4 @@ body {
     width: 100%;
 }
 
-/*Footer*/
-footer {
-    background-color: #000000;
-    color: #fff;
-    text-align: left;
-    padding: 10px;
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-}
+
