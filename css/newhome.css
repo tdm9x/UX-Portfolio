@@ -1,5 +1,6 @@
 body {
     background-color: white;
+    font-family: 'Inter';
     color: black;
     padding-left: 200px;
     padding-right: 200px;
@@ -13,23 +14,6 @@ body {
     
 }
 
-@font-face {
-    font-family: 'Amiamie-Regular';
-    src: url(/fonts hub/Amiamie-Regular.ttf);
-}
-
-@font-face {
-    font-family: 'Amiamie-Black';
-    src: url(/fonts hub/Amiamie-Black.ttf);
-}
-
-h3 {
-    font-family: 'Amiamie-black';
-}
-
-p {
-    font-family: 'Amiamie-Regular';
-}
 
 /* header */
 
