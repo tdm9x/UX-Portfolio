@@ -67,6 +67,14 @@ body {
     width: 100%;
 }
 
+ #indicator {
+       text-decoration: underline;
+          text-decoration-color: red; /* Replace with desired color */
+          text-decoration-thickness: 2px; /* Adjust thickness if needed */
+          text-decoration-style: solid; /* Options: solid, double, dotted, dashed, wavy */
+            text-underline-offset: 4px;
+    }
+
 /*introduction*/
 .intro {
     display: flex;
