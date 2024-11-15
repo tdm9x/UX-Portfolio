@@ -67,5 +67,10 @@
         margin-top: 81px;
     }
 
+    .indicator {
+        text-decoration: underline;
+        text-decoration-color: red;
+    }
+
 
 }
