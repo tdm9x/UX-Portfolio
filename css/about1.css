@@ -6,7 +6,7 @@
         font-family: 'Geist', sans-serif;
         color: black;
         padding: 40px 50px;
-        margin-bottom: 81px;
+        margin-bottom: 124px;
         overflow-x: hidden;
         z-index: 100;
     }
@@ -52,6 +52,10 @@
         height: 2px;
         background: #ff0000;
         transition: width 0.3s;
+    }
+
+    .amstart {
+        margin-top: 81px;
     }
 
     .navigation a:hover::before {
