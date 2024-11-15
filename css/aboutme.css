@@ -80,4 +80,12 @@ body {
     width: 100%;
 }
 
+ #indicator {
+       text-decoration: underline;
+          text-decoration-color: #FF5733; /* Replace with desired color */
+          text-decoration-thickness: 2px; /* Adjust thickness if needed */
+          text-decoration-style: solid; /* Options: solid, double, dotted, dashed, wavy */
+          color: #333;
+            text-underline-offset: 4px;
+    }
 
