@@ -70,6 +70,10 @@
             text-underline-offset: 4px;
     }
     
+    .link-section {
+        text-decoration: none;
+    }
+    
     /* Introduction */
     .intro {
         margin-top: 100px; /* To offset fixed header */
