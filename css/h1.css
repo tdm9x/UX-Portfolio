@@ -1,4 +1,4 @@
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 480px) {
     body {
         background-color: white;
         font-family: "Geist", sans-serif;
@@ -112,8 +112,8 @@
         border-radius: 30px;
         border: 2px solid #626FFF !important;
         position: relative;
-        padding: 20px;
-        width: 100%;
+        padding: 10px;
+        width: 90%;
         align-items: center;
         justify-content: center;
     
@@ -123,8 +123,8 @@
         border-radius: 30px;
         border: 2px solid #EB5308 !important;
         position: relative;
-        padding: 20px;
-        width: 100%;
+        padding: 10px;
+        width: 90%;
         align-items: center;
         justify-content: center;
     
@@ -134,8 +134,8 @@
         border-radius: 30px;
         border: 2px solid #F44E4E !important;
         position: relative;
-        padding: 20px;
-        width: 100%;
+        padding: 10px;
+        width: 90%;
         align-items: center;
         justify-content: center;
     
