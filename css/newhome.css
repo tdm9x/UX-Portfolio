@@ -163,7 +163,7 @@ body {
 
 .block1 {
     border-radius: 30px;
-    border: 2px solid #626FFF;
+    border: 2px solid #626FFF !important;
     position: relative;
     padding: 20px;
     width: 100%;
@@ -174,7 +174,7 @@ body {
 
 .block2 {
     border-radius: 30px;
-    border: 2px solid #EB5308;
+    border: 2px solid #EB5308 !important;
     position: relative;
     padding: 20px;
     width: 100%;
@@ -185,7 +185,7 @@ body {
 
 .block3 {
     border-radius: 30px;
-    border: 2px solid #F44E4E;
+    border: 2px solid #F44E4E !important;
     position: relative;
     padding: 20px;
     width: 100%;
