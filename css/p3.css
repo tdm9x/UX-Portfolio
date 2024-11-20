@@ -458,9 +458,19 @@
        }
 
     
-       .stories video {
-            height: 300px; 
+       .stories {
+        display: flex;
+        flex-direction: column;
+        
+        width: 100%;
+        margin-bottom: 81px;
+        align-items: center;
+        justify-content: center;
                     
+       }
+
+       .stories video {
+        height: 300px;
        }
     
        .tab_bar video {
@@ -580,7 +590,7 @@
             text-align: left;
             justify-content: center;
         }
-        .fsvid  video{
+        .fontsize  video{
            
             height: 300px;
             align-items: center;
