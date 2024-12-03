@@ -684,5 +684,101 @@
         padding: 10px;
     }
     
+        /* Projects */
+
+ 
+
+        .blocks {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            margin-bottom: 81px;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+    
+        .blocks p {
+            font-style: italic;
+        }
+        
+        .block1 {
+            border-radius: 30px;
+            border: 2px solid #626FFF !important;
+            position: relative;
+            padding: 10px;
+            width: 200px;
+            align-items: center;
+            justify-content: center;
+        
+        }
+        
+        .block2 {
+            border-radius: 30px;
+            border: 2px solid #EB5308 !important;
+            position: relative;
+            padding: 10px;
+            width: 200px;
+            align-items: center;
+            justify-content: center;
+        
+        }
+        
+        .block3 {
+            border-radius: 30px;
+            border: 2px solid #F44E4E !important;
+            position: relative;
+            padding: 10px;
+            width: 200px;
+            align-items: center;
+            justify-content: center;
+        
+        }
+        
+        .tags {
+            display: flex;
+            flex-direction: row;
+            gap: 16px;
+        }
+        
+        .block1 h5 {
+            border: 2px solid #626FFF;
+            border-radius: 24px;
+            padding: 10px;
+            position: relative;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: #626FFF;
+        }
+        
+        .block2 h5 {
+            border: 2px solid #EB5308;
+            border-radius: 24px;
+            padding: 10px;
+            position: relative;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: #EB5308;
+        }
+        
+        
+        .block3 h5 {
+            border: 2px solid #ff0000;
+            border-radius: 24px;
+            padding: 10px;
+            position: relative;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: #ff0000;
+        }
+    
+        .blocks h3, p {
+            color: #000000;
+        }
+    
 
 }
