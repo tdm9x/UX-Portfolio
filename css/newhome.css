@@ -310,7 +310,7 @@ body {
     
     /* Introduction */
     .intro {
-        margin-top: 100px; /* To offset fixed header */
+        margin-top: px; /* To offset fixed header */
         text-align: center;
         padding: 10px;
     }
